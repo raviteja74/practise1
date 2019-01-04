@@ -100,7 +100,7 @@ public class ImageEditorView extends View implements EditorView {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        Log.i(TAG, "in  onDraw(...................)");
+        Log.i(TAG, "in onDraw(...................)");
 
         final Bitmap bitmap = getAlteredImageBitmap();
 
