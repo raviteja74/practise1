@@ -20,7 +20,7 @@ import butterknife.OnClick;
 
 public class HomeActivity extends MvpAppCompatActivity implements HomeView {
     public static final int REQ_CAMERA = 1;
-
+//some changes occurs
     @InjectPresenter
     HomeActivityPresenter mPresenter;
 
